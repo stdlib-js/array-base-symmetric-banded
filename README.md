@@ -45,38 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-symmetric-banded
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/array-base-symmetric-banded/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/array-base-symmetric-banded' );
 ```
 
 #### ns
@@ -91,6 +85,13 @@ var o = ns;
 The namespace exports the following:
 
 <!-- <toc pattern="*"> -->
+
+<div class="namespace-toc">
+
+-   <span class="signature">[`filled2dBy( N, k, fill, clbk[, thisArg] )`][@stdlib/array/base/symmetric-banded/filled2d-by]</span><span class="delimiter">: </span><span class="description">create a filled two-dimensional symmetric banded nested array according to a provided callback function.</span>
+-   <span class="signature">[`toCompact( uplo, arr, k, colexicographic )`][@stdlib/array/base/symmetric-banded/to-compact]</span><span class="delimiter">: </span><span class="description">convert a two-dimensional symmetric banded nested array to compact banded storage.</span>
+
+</div>
 
 <!-- </toc> -->
 
@@ -116,21 +117,11 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/array-base-symmetric-banded' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -216,6 +207,14 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-symmetric-banded/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-symmetric-banded/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/array/base/symmetric-banded/filled2d-by]: https://github.com/stdlib-js/array-base-symmetric-banded-filled2d-by
+
+[@stdlib/array/base/symmetric-banded/to-compact]: https://github.com/stdlib-js/array-base-symmetric-banded-to-compact
+
+<!-- </toc-links> -->
 
 </section>
 
