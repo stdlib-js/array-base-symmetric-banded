@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-symmetric-banded",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Symmetric banded array utilities.",
   "license": "Apache-2.0",
   "author": {
@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-symmetric-banded-filled2d-by": "github:stdlib-js/array-base-symmetric-banded-filled2d-by#main",
+    "@stdlib/array-base-symmetric-banded-filled2d-by": "^0.1.0",
     "@stdlib/array-base-symmetric-banded-to-compact": "github:stdlib-js/array-base-symmetric-banded-to-compact#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
