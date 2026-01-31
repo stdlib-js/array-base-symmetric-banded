@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { filled2dBy, toCompact } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@deno/mod.js';
+import { filled2dBy, toCompact } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@v0.1.0-deno/mod.js';
 ```
 
 #### ns
@@ -107,7 +107,7 @@ The namespace exports the following:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-symmetric-banded@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
