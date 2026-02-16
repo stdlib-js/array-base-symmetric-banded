@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-symmetric-banded-filled2d-by": "^0.1.1",
-    "@stdlib/array-base-symmetric-banded-to-compact": "^0.1.0",
+    "@stdlib/array-base-symmetric-banded-to-compact": "^0.1.1",
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
